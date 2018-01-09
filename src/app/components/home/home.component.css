@@ -1,0 +1,16 @@
+#image{
+  margin-top:50px;
+}
+
+
+@media(min-width:1440px) {
+    #image.container {
+        padding: 10% 0;
+    }
+}
+
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  width:100%;
+}
