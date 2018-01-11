@@ -3,10 +3,9 @@
 
   <div class="col-md-6">
     <div class="container-fluid">
-      <h2>List From Database</h2>
+      <h2>User List From Database</h2>
 
       <div class="table-responsive-sm">
-        <div *ngFor="let d of userData">
         <table class="table">
           <thead>
           <tr>
@@ -17,7 +16,7 @@
             <th>Zip</th>
           </tr>
           </thead>
-          <tbody>
+          <tbody *ngFor="let d of userData">
 
           <tr>
             <td>{{d.firstName}}</td>
@@ -29,7 +28,6 @@
 
           </tbody>
         </table>
-        </div>
       </div>
 
     </div>

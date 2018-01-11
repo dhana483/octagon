@@ -27,7 +27,6 @@ export class InformationService {
       .catch(this.handleError);
   }
 
-
   private extractData(res: Response) {
     const body = res.json();
     return body || [];
@@ -49,7 +48,6 @@ export class InformationService {
           this.router.navigate(['/']);
         }
       });
-
   }
 
 }
