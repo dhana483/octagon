@@ -11,6 +11,8 @@ import { InformationComponent } from './components/information/information.compo
 import { MainComponent } from './components/main/main.component';
 import {InformationService} from './components/information.service';
 import { ShoppingListComponent } from './components/shopping-list/shopping-list.component';
+import { UserInsertFormComponent } from './components/information/user-insert-form/user-insert-form.component';
+import { UserTableComponent } from './components/information/user-table/user-table.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { ShoppingListComponent } from './components/shopping-list/shopping-list.
     HomeComponent,
     InformationComponent,
     MainComponent,
-    ShoppingListComponent
+    ShoppingListComponent,
+    UserInsertFormComponent,
+    UserTableComponent
   ],
   imports: [
     BrowserModule,
@@ -31,4 +35,5 @@ import { ShoppingListComponent } from './components/shopping-list/shopping-list.
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
 

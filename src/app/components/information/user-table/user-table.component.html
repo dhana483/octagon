@@ -1,0 +1,24 @@
+<div class="row">
+    <h2>User List From Database</h2>
+      <table class="table">
+        <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+          <th>State</th>
+          <th>Zip</th>
+        </tr>
+        </thead>
+        <tbody *ngFor="let d of userData">
+        <tr>
+          <td>{{d.firstName}}</td>
+          <td>{{d.lastName}}</td>
+          <td>{{d.email}}</td>
+          <td>{{d.state}}</td>
+          <td>{{d.zip}}</td>
+        </tr>
+        </tbody>
+      </table>
+ </div>
+
